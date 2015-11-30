@@ -7,7 +7,7 @@ words = { 'title' => ['pics/blastfirst400.png','pics/escalator400.png','pics/han
 Squib::Deck.new(cards: 14, width: 1125, height: 825) do
   background color: 'white'
   png file: words['title'], y: 200, x: 350
-  text str: words['num'], font: 'MicrogrammaDEEMedExt Regular 36', width: 320, height: 60, y: 700, x: 50, align: :left
-  text str: suit, font: 'MicrogrammaDEEMedExt Regular 36', width: 320, height: 60, y: 700, x: 750, align: :right
+  text str: words['num'], font: 'MicrogrammaDEEMedExt Regular 36', width: 320, height: 60, y: 675, x: 55, align: :left
+  text str: suit, font: 'MicrogrammaDEEMedExt Regular 36', width: 320, height: 60, y: 675, x: 745, align: :right
   save_png prefix: 'wands_'
 end
